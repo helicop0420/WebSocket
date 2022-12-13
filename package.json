@@ -1,0 +1,18 @@
+{
+  "name": "rustrcon",
+  "version": "1.0.2",
+  "description": "RCON wrapper for rust.",
+  "main": "src/index.js",
+  "author": "Artful",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^6.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
+}
